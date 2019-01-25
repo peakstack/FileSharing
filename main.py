@@ -13,7 +13,7 @@ class Connection:
         self.socket_client.listen(5)
 
     def send_packet(self):
-
+        pass
 
     def send_file(self, filename):
         with open(filename, "rb") as f:
